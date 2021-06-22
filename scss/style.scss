@@ -1,0 +1,68 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+footer{
+    div{ 
+        color: black;
+        font-size: 18px; 
+        }
+}
+
+.footer__flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.container-fluid{
+    padding-right: 0px;
+    padding-right: 0px;
+}
+
+.form__color{
+    color: crimson;
+    background-color: mediumspringgreen;
+}
+
+.form__boxing{
+    margin: 1%;
+    padding: 1%;
+}
+
+.table__color{
+    color: crimson;
+    background-color: mediumspringgreen;
+}
+.table__box{
+    margin: 1%;
+    padding: 1%;
+}
+.p__padding{
+    padding: 1%;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* tragos style*/
+
+
+.estilo__tragos{
+    div{
+        h4{
+            color: crimson;
+            &:hover{
+                color: black;
+            }
+        }
+        img{
+            width: 99%;
+        }
+    }
+}
+
