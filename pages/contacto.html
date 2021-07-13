@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../css/estilo.css">
   <title>Contacto Almagro Bebidas</title>
 </head>
-<body>
+<body class="body">
   <header>
     <section class="titulo">
     <div class="container-fluid">
@@ -52,43 +52,49 @@
       </div>
     </div>
   </div>
- 
+ <section>
+
+  <div class="container-fluid edit__font">
+    <div><class class="row">
+      <div class="col-md-4 col-xs-4">
+        <img src="../assets/img/iconmail.png" alt="iconomail">
+        <p>almagrobebidas@gmail.com</p>
+      </div>
+      <div class="col-md-4 col-xs-4">
+        <img src="../assets/img/whatsapp.png" alt="">
+        <p>1169634028</p>
+      </div>
+      <div class="col-md-4 col-xs-4">
+        <img src="../assets/img/instagram.png" alt="Instagram">
+        <p>@Almagrobebidas</p>
+      </div>
+    </div>
+  </div>
+
+ </section>
     <div class="burbujas">
       <div class="burbuja"></div>
       <div class="burbuja"></div>
       <div class="burbuja"></div>
       <div class="burbuja"></div>
     </div>
-  </header>
-    <section>
-        <form class= "form__color form__boxing" >
-            <fieldset>
-                <input type="text" name="nombre" placeholder="Ingresa tu nombre completo"><br>
-                <input type="text" name="mail" placeholder="Ingresa tu email">
-                <br>
-                <label> Mayor a 18
-                  <input type="radio" name="edad">  
-                </label>
-                <label> Menor a 18
-                    <input type="radio" name="edad">
-                </label><br>
 
-                <select>
-                    <option value="Femenino">Femenino</option>
-                    <option value="Masculino">Masculino</option>
-                    <option value="Otro">Otro</option>
-                </select><br>
-                <div>Quieres recibir nuestras ofertas semanales?</div>
-                <input type="checkbox" name="acepta" value="1"><br>
-                <label for="Escribe tu consulta"> Escribe tu consulta: <br>
-                    <textarea></textarea>
-                </label>
-                <br>
-                <input type="reset" name="reset">
-                <input type="submit" name="submit">
-            </fieldset>
-        </form>
-    </section>
+
+  <form action="">
+    <h2>Contacto</h2>
+    <input type="text" name="Nombre" placeholder="Nombre">
+    <input type="text" name="Correo" placeholder="Correo">
+    <input type="text" name="Telefono" placeholder="Telefono">
+    <textarea name="Mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+    <input type="button" value="Enviar" id="boton">
+  </form>
+
+  </header>
+
+
+
+
+ 
     <footer class="footer__flex">
       <div><h6>Twitter </h6></div>
       <div><h6>Instagram </h6></div>

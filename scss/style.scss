@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 .titulo{
@@ -19,6 +19,60 @@ footer{
         }
 }
 
+.body{
+    margin:0;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    h2{
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    input{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+    }
+    textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: none;
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+    #boton{
+        background: #31384A;
+        padding: 20px;
+        &:hover{
+            cursor:pointer;
+        }
+    }
+}
+@media (max-width:480px){
+    form{
+        width:100%;
+    }
+}
+
+
+
 .footer__flex{
     display: flex;
     flex-direction: row;
@@ -32,28 +86,6 @@ footer{
     padding-right: 0px;
     padding-left: 0px;
     background: #505BDA;
-}
-
-.form__color{
-    color: crimson;
-    background-color: mediumspringgreen;
-}
-
-.form__boxing{
-    margin: 1%;
-    padding: 1%;
-}
-
-.table__color{
-    color: crimson;
-    background-color: mediumspringgreen;
-}
-.table__box{
-    margin: 1%;
-    padding: 1%;
-}
-.p__padding{
-    padding: 1%;
 }
 .row{
     margin-right: 0px;
@@ -236,3 +268,5 @@ footer{
     width: auto;
     display: block;
 }
+
+
