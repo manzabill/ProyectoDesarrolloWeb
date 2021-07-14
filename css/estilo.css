@@ -4,7 +4,8 @@
   box-sizing: border-box; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: #505BDA; }
 
 .logo img {
   width: 10%; }
@@ -198,9 +199,12 @@ footer div {
   background: #1A2849;
   padding: 20px; }
 
-.banner_img {
-  width: 10%;
-  align-items: center;
+.center {
+  display: flex;
   justify-content: center;
-  display: inline-block;
-  border-radius: 30px 30px 30px 30px; }
+  align-items: center;
+  background: #505BDA;
+  padding: 10px; }
+  .center img {
+    width: 99%;
+    border-radius: 50px 50px 50px 50px; }
