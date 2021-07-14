@@ -56,13 +56,13 @@ color: white;
 .btn:hover{
 background-color: rgb(24, 23, 23);
 }
+
 .contactanos{
 font-size: 70px;
 margin-bottom: 20px;
 color: white;
 text-align: center;
 }
-
 
 .footer__flex{
     display: flex;
@@ -71,8 +71,9 @@ text-align: center;
     justify-content:space-between;
     align-items: center;
     background: #505BDA;
-    padding-top: 15px;
+    padding: 15px;
 }
+
 .container-fluid{
     padding-right: 0px;
     padding-left: 0px;
