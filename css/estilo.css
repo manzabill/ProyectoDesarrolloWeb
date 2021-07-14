@@ -3,6 +3,12 @@
   padding: 0px;
   box-sizing: border-box; }
 
+body {
+  overflow-x: hidden; }
+
+.logo img {
+  width: 10%; }
+
 .titulo img {
   width: 99%;
   padding-bottom: 10px;
@@ -12,63 +18,52 @@ footer div {
   color: black;
   font-size: 18px; }
 
-.body {
-  margin: 0; }
+/*Formulario*/
+.fondoContacto {
+  background-color: #505BDA;
+  background-size: cover;
+  padding: 0;
+  margin: 0 !important; }
 
-form {
-  width: 400px;
-  margin: auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  border-radius: 7px; }
-  form h2 {
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    font-size: 30px;
-    margin-bottom: 10px; }
-  form input {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
-    border: none; }
-  form textarea {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
-    border: none;
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%; }
-  form #boton {
-    background: #31384A;
-    padding: 20px; }
-    form #boton:hover {
-      cursor: pointer; }
+.flexForm {
+  display: block; }
 
-@media (max-width: 480px) {
-  form {
-    width: 100%; } }
+.col-md-8 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px 10px 10px 10px;
+  margin: 40px 0px 40px 0px; }
+
+.btn {
+  background-color: #525151;
+  border: none;
+  color: white; }
+
+.btn:hover {
+  background-color: #181717; }
+
+.contactanos {
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center; }
 
 .footer__flex {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
   background: #505BDA;
   padding-top: 15px; }
 
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
-  background: #505BDA; }
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #505bda;
+  justify-content: center; }
 
 .row {
   margin-right: 0px;
@@ -79,11 +74,13 @@ form {
   padding-bottom: 20px;
   padding-right: 0px;
   background: #505BDA;
-  color: #fff; }
+  color: #fff;
+  align-items: center; }
   .edit__font h4 {
     font-size: 30px; }
   .edit__font img {
-    width: 99%; }
+    width: 99%;
+    border-radius: 10px 10px 10px 10px; }
 
 /* tragos style*/
 .estilo__tragos {
@@ -94,7 +91,8 @@ form {
     .estilo__tragos div h4:hover {
       color: black; }
   .estilo__tragos div img {
-    width: 99%; }
+    width: 99%;
+    border-radius: 10px 10px 10px 10px; }
 
 /* hace tu pedido*/
 .flex__list {

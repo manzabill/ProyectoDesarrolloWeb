@@ -4,6 +4,15 @@
     box-sizing: border-box
 }
 
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    img{
+        width: 10%;
+    }
+}
 .titulo{
         img{
             width: 99%;
@@ -19,73 +28,58 @@ footer{
         }
 }
 
-.body{
-    margin:0;
+/*Formulario*/
+
+.fondoContacto{
+    background-color: #505BDA;
+    background-size: cover;
+    padding: 0;
+    margin: 0 !important;
 }
 
-form{
-    width: 400px;
-    margin: auto;
-    background: rgba(0,0,0,0.4);
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 7px;
-    h2{
-        color: #fff;
-        text-align: center;
-        margin: 0;
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    input{
-        width: 100%;
-        margin-bottom: 20px;
-        padding: 7px;
-        box-sizing: border-box;
-        font-size: 17px;
-        border: none;
-    }
-    textarea{
-        width: 100%;
-        margin-bottom: 20px;
-        padding: 7px;
-        box-sizing: border-box;
-        font-size: 17px;
-        border: none;
-        min-height: 100px;
-        max-height: 200px;
-        max-width: 100%;
-    }
-    #boton{
-        background: #31384A;
-        padding: 20px;
-        &:hover{
-            cursor:pointer;
-        }
-    }
+.flexForm{
+display: block;
+
 }
-@media (max-width:480px){
-    form{
-        width:100%;
-    }
+.col-md-8{
+color: white;
+background-color: rgba(0, 0, 0, 0.6);
+border-radius: 10px 10px 10px 10px;
+margin: 40px 0px 40px 0px;
+}
+.btn{
+background-color: rgb(82, 81, 81);
+border: none;
+color: white;
 }
 
+.btn:hover{
+background-color: rgb(24, 23, 23);
+}
+.contactanos{
+font-size: 70px;
+margin-bottom: 20px;
+color: white;
+text-align: center;
+}
 
 
 .footer__flex{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content:space-between;
+    align-items: center;
     background: #505BDA;
     padding-top: 15px;
 }
 .container-fluid{
     padding-right: 0px;
     padding-left: 0px;
-    background: #505BDA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #505bda;
+    justify-content: center;
 }
 .row{
     margin-right: 0px;
@@ -98,11 +92,13 @@ form{
     padding-right: 0px;
     background: #505BDA;
     color: #fff;
+    align-items: center;
         h4{
         font-size: 30px;
     }
     img{
         width: 99%;
+        border-radius: 10px 10px 10px 10px;
     }
 }
  
@@ -124,6 +120,7 @@ form{
         }
         img{
             width: 99%;
+            border-radius: 10px 10px 10px 10px;
         }
     }
 }
@@ -139,6 +136,7 @@ form{
     }
 
 }
+
 
 /* Burbujas*/
 
