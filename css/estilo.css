@@ -88,9 +88,9 @@ footer div {
 /* tragos style*/
 .estilo__tragos {
   padding: 15px;
-  color: yellow; }
+  color: #fff; }
   .estilo__tragos div h4 {
-    color: #fff; }
+    color: yellow; }
     .estilo__tragos div h4:hover {
       color: black; }
   .estilo__tragos div img {
