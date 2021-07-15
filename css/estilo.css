@@ -8,7 +8,7 @@ body {
   background: #505BDA; }
 
 .logo img {
-  width: 10%; }
+  width: 20%; }
 
 .titulo img {
   width: 99%;
@@ -34,15 +34,15 @@ footer div {
   max-width: 80%; }
 
 .col-md-8 {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px 10px 10px 10px;
+  color: #505BDA;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 15px 15px 15px 15px;
   margin: 40px 0px 40px 0px; }
 
 .btn {
-  background-color: #525151;
+  background-color: #1A2849;
   border: none;
-  color: white; }
+  color: #505BDA; }
 
 .btn:hover {
   background-color: #181717; }
@@ -50,6 +50,7 @@ footer div {
 .contactanos {
   text-align: center; }
 
+/* fin formulario*/
 .footer__flex {
   display: flex;
   flex-direction: row;
@@ -57,7 +58,7 @@ footer div {
   justify-content: space-between;
   align-items: center;
   background: #505BDA;
-  padding: 15px; }
+  padding: 10px; }
 
 .container-fluid {
   padding-right: 0px;
@@ -87,9 +88,9 @@ footer div {
 /* tragos style*/
 .estilo__tragos {
   padding: 15px;
-  color: #fff; }
+  color: yellow; }
   .estilo__tragos div h4 {
-    color: yellow; }
+    color: #fff; }
     .estilo__tragos div h4:hover {
       color: black; }
   .estilo__tragos div img {
@@ -157,7 +158,7 @@ footer div {
 
 .burbuja:nth-child(7) {
   width: 60px;
-  height: 40px;
+  height: 60px;
   left: 85%;
   animation-duration: 3s;
   animation-delay: 4s; }
